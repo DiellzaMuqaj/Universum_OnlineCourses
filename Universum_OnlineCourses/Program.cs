@@ -66,8 +66,6 @@ if (!string.IsNullOrEmpty(port))
 }
 
 
-// ? Swagger only in Development
-if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
