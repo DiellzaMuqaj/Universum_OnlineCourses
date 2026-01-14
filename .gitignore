@@ -1,0 +1,21 @@
+# Secrets (NEVER COMMIT) 
+appsettings.Development.json 
+ 
+# Build outputs 
+bin/ 
+obj/ 
+ 
+# IDE / User files 
+.vs/ 
+*.user 
+*.suo 
+*.userosscache 
+*.sln.docstates 
+ 
+# Logs 
+logs/ 
+*.log 
+ 
+# OS files 
+.DS_Store 
+Thumbs.db 
